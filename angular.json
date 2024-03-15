@@ -47,12 +47,10 @@
         },
         "locales": {
           "he": {
-            "translation": "src/locales/he.xtb",
-            "baseHref": "/he/"
+            "translation": "src/locales/he.xtb"
           },
           "uk": {
-            "translation": "src/locales/uk.xtb",
-            "baseHref": "/uk/"
+            "translation": "src/locales/uk.xtb"
           }
         }
       },

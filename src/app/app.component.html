@@ -1,14 +1,14 @@
 <header>
   <nav>
     <a
-      i18n="@@menuItemHome"
+      i18n="@@navItem.home"
       [routerLink]="'/'"
       [routerLinkActive]="'menu-item-active'"
       [routerLinkActiveOptions]="{ exact: true }"
     >Home</a>
 
     <a
-      i18n="@@menuItemAbout"
+      i18n="@@navItem.about"
       [routerLink]="'/about'"
       [routerLinkActive]="'menu-item-active'"
     >About</a>
@@ -24,5 +24,5 @@
 </header>
 
 <main>
-  <router-outlet></router-outlet>
+  <router-outlet />
 </main>
